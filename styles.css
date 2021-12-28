@@ -1,0 +1,32 @@
+.post {
+    color: black;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: hotpink;
+    height: 500px;
+    flex: 1 0 21%;
+    margin-left: 10px;
+  
+}
+.body{
+    text-align: center;
+}
+ body {
+    flex-wrap: wrap;
+    display: flex ;
+    justify-content: space-between;
+ }
+
+ .buttons{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 50px;
+ }
+
+ .comment {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 150px;
+ }
